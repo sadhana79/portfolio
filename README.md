@@ -4,8 +4,9 @@ A modern portfolio website showcasing my skills, projects, and contact informati
 
 ## Features
 Responsive design
+
 Animated text
-Contact form
+
 Project links
 
 ## Live Link 
