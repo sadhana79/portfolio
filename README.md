@@ -8,9 +8,9 @@ Animated text
 Contact form
 Project links
 
-## Live Link (if hosted)
+## Live Link 
  https://sadhana79.github.io/portfolio/
 
 ## Technologies
-HTML | CSS | JavaScript
+HTML | CSS 
 
