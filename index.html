@@ -1,0 +1,259 @@
+<!-- Starts from here -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Sadhana Gonge</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', 'Roboto', sans-serif;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background: linear-gradient(to bottom right, #dbeafe, #f0e9fd, #ffe4e6);
+      color: #111827;
+      line-height: 1.6;
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      background: linear-gradient(to right, #6a11cb, #2575fc);
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 1000;
+    }
+
+    header h1 {
+      font-size: 1.8rem;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      color: #ffd700;
+    }
+
+    nav a {
+      color: white;
+      margin-left: 1.5rem;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 1rem;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #d1d5db;
+    }
+
+    .hero {
+      background: white;
+      color: #1f2937;
+      padding: 2rem 2rem;
+      text-align: center;
+    }
+
+    .hero p {
+      font-size: 1.6rem;
+      font-weight: 700;
+      margin-bottom: 0.2rem;
+    }
+
+    .hero p span {
+      background: linear-gradient(90deg, #4f46e5, #9333ea);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero h2 {
+      text-align: center;
+      color: #4f46e5;
+      font-size: 2.2rem;
+      font-weight: 600;
+      margin-top: 0.3rem;
+    }
+
+    section {
+      padding: 4rem 10%;
+      background-color: white;
+      margin: 2rem auto;
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+      max-width: 1000px;
+    }
+
+    h2 {
+      color: #4f46e5;
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      border-left: 4px solid #6366f1;
+      padding-left: 0.75rem;
+      font-weight: 600;
+    }
+
+    .item {
+      margin-bottom: 2rem;
+      font-size: 1.05rem;
+    }
+
+    .project-card {
+      border: 1px solid #e5e7eb;
+      padding: 1rem 1.5rem;
+      border-radius: 10px;
+      background: #f9fafb;
+      margin-bottom: 1.5rem;
+    }
+
+    .project-card strong {
+      font-size: 1.2rem;
+      color: #111827;
+      font-weight: 600;
+    }
+
+    .project-card em {
+      display: block;
+      color: #6b7280;
+      margin-top: 0.25rem;
+      font-style: normal;
+    }
+
+    .project-card a {
+      display: inline-block;
+      margin-top: 0.5rem;
+      background: #4f46e5;
+      color: white;
+      padding: 0.4rem 0.8rem;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 0.95rem;
+      transition: background 0.3s;
+    }
+
+    .project-card a:hover {
+      background: #3730a3;
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 1.5rem;
+      font-size: 1.05rem;
+    }
+
+    .contact {
+      text-align: center;
+      padding: 2rem;
+      background-color: #f3f4f6;
+      font-size: 1.1rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #1f2937;
+      color: white;
+    }
+
+    
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Portfolio</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <p>Hi, I'm <span style="color: #ffd700;">Sadhana Gonge</span>👋</p>
+      <h2>Java Full Stack Developer</h2>
+    <p><h3><img src="https://cdn-icons-png.flaticon.com/512/281/281769.png" alt="Email" style="width:20px; vertical-align:middle; margin-right:8px;"><a href="mailto:sadhanagonge@gmail.com" style="color:#1f2937; text-decoration:none; font-weight:500;">sadhanagonge@gmail.com</a> | <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" style="width:20px; vertical-align:middle; margin-right:6px;"> <a href="https://www.linkedin.com/in/sadhana-gonge-97009a259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" style="color:#1f2937; text-decoration:none; font-weight:500;">LinkedIn</a> | 📍 Pune, India | <img src="https://cdn-icons-png.flaticon.com/512/724/724664.png" alt="Phone" style="width:20px; vertical-align:middle; margin-right:6px;"> 9156701585</h3></p>
+  </div>
+
+  
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m a passionate learner aiming to apply my academic knowledge to real-world software development. I love building user-centric, efficient applications and continuously growing my problem-solving skills to establish a strong career foundation.</p>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <div class="item">
+      <strong>BTech in Computer Science</strong><br>
+      Mahatma Gandhi Mission’s College of Engineering, 2024 — 7.56 CGPA
+    </div>
+    <div class="item">
+      <strong>Diploma in Computer Science</strong><br>
+      Shri Shivaji Polytechnic Institute, Parbhani, 2021 — 94.6%
+    </div>
+    <div class="item">
+      <strong>SSC</strong><br>
+      Gandhi Vidyalaya Krushi Sarthi, Parbhani, 2018 — 82.80%
+    </div>
+  </section>
+
+  <section id="projects">
+  <h2>Projects</h2>
+  <div class="project-card">
+    <strong>Employee Management CRUD Application</strong>
+    <em>Node.js, Express.js, EJS, MySQL, HTML, CSS</em>
+    <p>Developed a full-stack application to manage employees and departments with dynamic web pages and backend integration.</p>
+    <a href="https://github.com/sadhana79/Employee-Management-System.git" target="_blank">View GitHub</a>
+  </div>
+  <div class="project-card">
+    <strong>Book Recommendation System with Summary Generation</strong>
+    <em>Python, Django, NLP, TF-IDF, TextRank</em>
+    <p>Implemented recommendation and PDF summarization using NLP algorithms with a user-friendly interface.</p>
+    <a href="https://github.com/sadhana79/Book-Recommendation-System-with-Summary-Generation.git" target="_blank">View GitHub</a>
+  </div>
+  <div class="project-card">
+    <strong>Emergency Ambulance Booking System</strong>
+    <em>PHP, MySQL, HTML, CSS, JavaScript</em>
+    <p>Created a real-time platform for booking ambulances with secure authentication and location-based features.</p>
+    <a href="https://github.com/sadhana79/Emergency-Ambulance-Booking-System.git" target="_blank">View GitHub</a>
+  </div>
+</section>
+
+
+  <section id="skills">
+    <h2>Technical Skills</h2>
+    <ul>
+      <li>Languages: Java, PHP, JavaScript, PLSQL</li>
+      <li>Frontend: HTML, CSS, Bootstrap</li>
+      <li>Backend: Node.js</li>
+      <li>Database: MySQL</li>
+      <li>Tools: VS Code, Eclipse IDE, Postman, GitHub, Jira</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Certifications</h2>
+    <ul>
+      <li>Java Full Stack Developer – Giri’s Tech Hub</li>
+      <li>NPTEL Cloud Computing Certification</li>
+    </ul>
+  </section>
+
+  <div class="contact" id="contact">
+    <h2>Contact</h2>
+    <p><img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Gmail_Icon.png" alt="Gmail" style="width:20px; vertical-align:middle; margin-right:8px;"> <a href="mailto:sadhanagonge@gmail.com" style="color:#1f2937; text-decoration:none; font-weight:500;">sadhanagonge@gmail.com</a></p>
+    <p>📍 Pune, India</p>
+  </div>
+
+  <footer>
+    &copy; 2025 Sadhana Gonge. All rights reserved.
+  </footer>
+</body>
+</html>
